@@ -1,4 +1,8 @@
 image: maven:3-jdk8
 
 build:
-   script: "maven clean install"
+ script: "maven clean install"
+ artifacts:
+   name: "oslib"
+   paths:
+   - "target/*.jar"
