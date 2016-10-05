@@ -1,6 +1,11 @@
 # oslib
 
 Java library to easily detect running Operating System, BSD Flavor, Linux Distribution, Desktop Environment and Architecture
+This is the mavenized version
+
+# Builds
+
+Available at https://gitlab.com/hugo4715/oslib/builds
 
 # Authors
 
