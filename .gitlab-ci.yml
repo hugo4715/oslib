@@ -1,0 +1,4 @@
+image: maven:3-jdk8
+
+build:
+   script: "maven clean install"
