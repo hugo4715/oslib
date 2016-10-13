@@ -1,15 +1,17 @@
 package oslib;
 
-import static org.junit.Assert.*;
-
 import org.junit.Test;
 
-import oslib.bsd.BSDOperatingSystem;
-import oslib.linux.DistroSpec;
-import oslib.linux.LinuxOperatingSystem;
-import oslib.osx.OSXOperatingSystem;
-import oslib.solaris.SolarisOperatingSystem;
-import oslib.windows.WindowsOperatingSystem;
+import fr.hugo4715.oslib.AbstractOperatingSystem;
+import fr.hugo4715.oslib.OperatingSystem;
+import fr.hugo4715.oslib.bsd.BSDOperatingSystem;
+import fr.hugo4715.oslib.linux.DistroSpec;
+import fr.hugo4715.oslib.linux.LinuxOperatingSystem;
+import fr.hugo4715.oslib.osx.OSXOperatingSystem;
+import fr.hugo4715.oslib.solaris.SolarisOperatingSystem;
+import fr.hugo4715.oslib.windows.WindowsOperatingSystem;
+
+
 
 public class TestDebug {
 
