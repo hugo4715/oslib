@@ -3,9 +3,24 @@
 Java library to easily detect running Operating System, BSD Flavor, Linux Distribution, Desktop Environment and Architecture
 This is the mavenized version
 
-# Builds
+# Maven 
 
-Available at https://gitlab.com/hugo4715/oslib/builds
+```
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.github.hugo4715</groupId>
+			<artifactId>oslib</artifactId>
+			<version>1.0</version>
+		</dependency>
+	</dependencies>
+```
 
 # Authors
 
